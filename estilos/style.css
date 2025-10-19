@@ -1,0 +1,78 @@
+
+/* Definições de cores e fontes globais */
+body {
+    background-color: #737BB2; 
+    font-family: Arial, sans-serif;
+    color: #000000; 
+    min-height: 100vh;
+}
+
+/* Estilo do Header/Cabeçalho */
+.header-custom {
+    background-color: #737373;
+    color: rgb(0, 0, 0); 
+    padding: 15px 0;
+    
+}
+
+/* Links do Menu no Header */
+.header-custom .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+/* Container Principal do Formulário */
+.form-container {
+    padding: 40px;
+}
+
+/* Estilo dos Blocos/Cards de Dados */
+.card-bloco {
+    background-color: white; 
+    border: none;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* Estilo dos Campos de Input */
+.form-control,
+.form-select {
+    background-color: #D9D9D9 !important; /* Fundo do campo */
+    border: none !important;
+    border-radius: 20px !important;
+    padding: 10px 15px;
+}
+
+/* Estilo do botão de Adicionar Experiência */
+.btn-adicionar {
+    background-color: #737BB2; /* Cor principal para o botão de ação */
+    border: none;
+    border-radius: 20px;
+}
+
+/* Estilo da Segunda Tela (curriculo.php) */
+
+/* Botões da segunda tela */
+.btn-download-pdf,
+.btn-voltar {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+/* Fundo do currículo para impressão */
+.cv-body {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+/* Ocultar elementos ao imprimir (PDF) */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
